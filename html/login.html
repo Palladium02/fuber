@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uber Clone - Login</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/css/login/login.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="navbar">
+        <h2>Fuber</h2>
+        <a href="#">Sign Up</a>
+      </div>
+      <div class="form-container">
+        <h1>Login</h1>
+
+        <form action="/login" method="post">
+          <input type="email" name="username" placeholder="Email" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <input type="submit" value="Login" />
+          <p class="error-text">Your credentials do not match.</p>
+        </form>
+        <img src="/img/undraw_city_driver_jh2h.svg" alt="Image of car" />
+        <p>Fuber LLC. © 2020</p>
+      </div>
+    </div>
+    <script src="/js/login.js"></script>
+  </body>
+</html>

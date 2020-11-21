@@ -1,0 +1,11 @@
+{
+  "name": "Fuber",
+  "short_name": "Fuber",
+  "description": "Uber Clone",
+  "start_url": "/",
+  "background_color": " #262626",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#262626",
+  "orientation": "portrait"
+}

@@ -4,11 +4,19 @@
   "description": "uber clone",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
+    "beautify": "npx prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sean Meyer",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.0"
   }
 }
